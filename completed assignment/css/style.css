@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div#container{
+  border: 1px solid green; 
+  overflow: auto;
+}
+
+
+div.col-one{
+  border: 1px solid red; 
+  height: 40em; 
+  margin: 0 3% 0 0;
+  float: left; 
+  width:30%;
+}
+
+
+div.row1, div.row3{
+  height: 25%; 
+  border: 1px solid black;
+}
+
+
+div.row2{
+  height: 50%; 
+  border: 1px solid blue;
+}
+
+
+div#last div.row2{
+  height: 5% !important;
+}
+
+
+div#last div.row3{
+  height: 70% !important;
+}
+
+
+div.sub-col1{
+  border: 1px solid black; 
+  float:left;
+  height:100%;
+}
+
+
+.col2{
+  width:67.6%;
+}
+
+
+.col1{
+  width:31.6%;
+}
+
+
+div.sub-row1{
+  border: 1px solid red;
+  height: 49.8%;
+
+}
+
+
+div.sub-row21,div.sub-row22{
+  float:left;
+  height: 97%;
+
+}
+
+
+div.sub-row21{
+  width: 58.6%;
+  border: 1px solid black;
+}
+
+
+div.sub-row22{
+  width: 39.7%;
+  border: 1px solid black;
+
+}
+
+div.sub-col2 {
+    border: 1px solid black;
+    float:right;
+    height:100%;
+}
+
+div.sub2-row1{
+  border: 1px solid red;
+  height: 66.4%;
+}
+
+div.sub2-row2{
+  border: 1px solid red;
+  height: 33.2%;
+}
+
+div.sub-col3 {
+    border: 1px solid black;
+    float:right;
+    height:100%;
+}
+
+div.sub-col-col1{
+  border: 1px solid blue;
+  height: 33%;
+}
+
+
+
+div.sub1-col3 {
+    height: 79.8%; 
+    width: 68.99%;
+    border: 1px solid black;
+    float: left;
+}
+
+div.sub-col3 {
+  border: 1px solid green;
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+
+div.sub-col1-col {
+  border: 1px solid red;
+  height: 45%;
+  width: 40%;
+}
+/*
+  Testing the microphone :)
+*/
